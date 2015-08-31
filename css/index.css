@@ -2,3 +2,15 @@
   margin-left: auto;
   margin-right: auto;
 }
+
+.section-img{
+  width: 100%;
+}
+
+.light-gray-bg {
+  background-color: #d3d3d3;
+}
+
+.brand-red-light-bg {
+  background-color: #F8ADAC;
+}

@@ -6,3 +6,15 @@
   font-size: 45px;
   letter-spacing: 2px;
 }
+
+.navbar {
+  background: white;
+  box-shadow: none;
+  border: none;
+}
+
+.nav.navbar-nav li.active a {
+  background: none;
+  box-shadow: none;
+  border-bottom: #ee312f 3px solid;
+}
