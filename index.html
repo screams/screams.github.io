@@ -4,8 +4,10 @@ title: Screaming Soon.. | Screams.io
 ---
 
 <link rel="stylesheet" href="../css/index.css">
-<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
-<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+
+<script src="../js/plugins/jquery.malihu.PageScroll2id.min.js"></script>
+<script src="../js/index.js"></script>
+
 
 <nav class="navbar navbar-default navbar-fixed-top">
   <div class="container">
@@ -20,11 +22,11 @@ title: Screaming Soon.. | Screams.io
     </div>
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Home</a></li>
-        <li><a href="#about-us-section">About</a></li>
-        <li><a href="#team-section">Team</a></li>
-        <li><a href="#how-it-works-section">How it works?</a></li>
-        <li><a href="#what-next-section">What's next?</a></li>
+        <li><a href="#">Home</a></li>
+        <li><a href="#about-us" class='same-page-nav'>About</a></li>
+        <li><a href="#team" class='same-page-nav'>Team</a></li>
+        <li><a href="#how-it-works" class='same-page-nav'>How it works?</a></li>
+        <li><a href="#whats-next" class='same-page-nav'>What's next?</a></li>
       </ul>
     </div><!--/.nav-collapse -->
   </div>
@@ -39,7 +41,7 @@ title: Screaming Soon.. | Screams.io
   </section>
 </div>
 
-<section class='light-gray-bg'>
+<section class='light-gray-bg' id='about-us'>
   <div class="container">
     <div class='row'>
       <div class='col-md-12'>
@@ -58,7 +60,7 @@ title: Screaming Soon.. | Screams.io
   </div>
 </section>
 
-<section class='brand-red-light-bg'>
+<section class='brand-red-light-bg' id='how-it-works'>
   <div class="container">
     <div class='row'>
       <div class='col-md-12'>
@@ -69,7 +71,7 @@ title: Screaming Soon.. | Screams.io
   </div>
 </section>
 
-<section>
+<section id='whats-next'>
   <div class="container">
     <div class='row'>
       <div class='col-md-12'>
