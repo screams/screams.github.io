@@ -6,3 +6,59 @@
   font-size: 45px;
   letter-spacing: 2px;
 }
+
+.navbar {
+  background: #fcfcf9;
+  border-bottom: 1px solid #eee;
+  box-shadow: none;
+}
+
+.nav.navbar-nav li a {
+  background: none;
+  box-shadow: none;
+}
+
+.nav.navbar-nav li a.active {
+  background: none;
+  box-shadow: none;
+  border-bottom: #ee312f 3px solid;
+}
+
+.navbar-brand img {
+  width: 20px;
+  float: left
+}
+
+.navbar-brand .brand-name {
+  float: right;
+}
+
+body {
+  font-size: 16px;
+}
+
+.navbar-nav>li>a {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.navbar-brand {
+  padding: 20px 15px
+}
+
+.navbar-nav {
+  float: right;
+}
+
+.footer {
+  border-top: 1px solid #eee;
+  background-color: #fcfcf9;
+  color: #8b8b89;
+  padding: 60px 0px 50px 0px;
+}
+
+.footer a.contact {
+  color: #8b8b89;
+  text-decoration: none !important;
+  font-size: 20px;
+}
