@@ -12,7 +12,7 @@
 }
 
 .brand-red-light-bg {
-  background-color: #F8ADAC;
+  background-color: #F15A59;
 }
 
 section {
@@ -26,8 +26,13 @@ section h2 {
 
 .team-member img {
   width: 100px;
+  height: 100px;
 }
 
 .team-member {
   text-align: center;
+}
+
+.bottom-separator {
+  border-bottom: #dfdfdf 1px solid;
 }
