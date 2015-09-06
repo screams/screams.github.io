@@ -1,3 +1,14 @@
+@font-face {
+	font-family: 'SEGOEUIL';
+	src: url('../fonts/SEGOEUIL.eot');
+	src: local('SEGOEUIL'), url('../fonts/SEGOEUIL.woff') format('woff'), url('../fonts/SEGOEUIL.ttf') format('truetype');
+}
+/* use this class to attach this font to any element i.e. <p class="fontsforweb_fontid_1409">Text with this font applied</p> */
+h2 {
+	font-family: 'SEGOEUIL' !important;
+	font-weight:bold;
+}
+
 .grey{
   color: grey;
 }
@@ -25,12 +36,15 @@
 }
 
 .navbar-brand img {
-  width: 20px;
-  float: left
+  /*width: 20px;*/
+  width: 45px;
+  float: left;
+  margin-top:-10px;
 }
 
 .navbar-brand .brand-name {
   float: right;
+  font-size:30px;
 }
 
 body {
@@ -38,8 +52,10 @@ body {
 }
 
 .navbar-nav>li>a {
-  padding-top: 20px;
-  padding-bottom: 20px;
+  /*padding-top: 20px;
+  padding-bottom: 20px;*/
+  padding-top: 30px;
+  padding-bottom: 10px;
 }
 
 .navbar-brand {
@@ -55,11 +71,19 @@ body {
   background-color: #fcfcf9;
   color: #8b8b89;
   padding: 60px 0px 50px 0px;
-  margin-top: 0px;
 }
 
 .footer a.contact {
   color: #8b8b89;
   text-decoration: none !important;
   font-size: 20px;
+}
+
+.divMore{
+	padding:20% 0% 0% 30%;
+}
+
+.divMore a{
+	text-decoration:none;
+	color:#000;
 }
